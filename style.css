@@ -1,0 +1,145 @@
+/* 全局样式 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20;
+  padding: 0;
+}
+
+
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  flex: 1;
+}
+
+/* 导航栏样式 */
+nav {
+  background-color: burlywood;
+  color: #fff;
+  height: 50px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  height: 50px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* 页面主体样式 */
+main {
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  line-height: 1.5;
+}
+
+/* 首页样式 */
+#welcome {
+  background-color: #eee;
+  height: 400px;
+  text-align: center;
+}
+
+#welcome h2 {
+  font-size: 48px;
+  margin-top: 150px;
+}
+
+.center {
+    text-align: center;
+    color: #808080;
+  }
+  
+
+/* 绳结页面样式 */
+.knot {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.knot h2 {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+}
+
+.knot p {
+  margin: 0 0 10px;
+}
+
+.knot img {
+  max-width: 100%;
+}
+  
+
+/* 关于我们页面样式 */
+.about {
+  margin-top: 30px;
+}
+
+.about h2 {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+}
+
+.about p {
+  margin: 0 0 10px;
+}
+
+.bottom-text {
+    position:fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #808080;
+  }
+   
+  .container {
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    padding: 250px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .header-container {
+    background-image: url("images/headbackground.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+  }
+  
